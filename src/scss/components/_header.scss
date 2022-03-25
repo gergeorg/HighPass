@@ -1,0 +1,24 @@
+.header {
+  background-color: var(--bg-color);
+  padding: 23px 0;
+
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__logo {
+    grid-column: 2 span;
+  }
+
+  &__nav {
+    grid-column: 4 / 7 span;
+  }
+
+  &__social {
+    grid-column: 2 span;
+  }
+}

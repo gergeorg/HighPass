@@ -1,0 +1,31 @@
+.social {
+  &__list {
+    @include flex;
+    justify-content: end;
+    gap: 20px;
+  }
+
+  &__link {
+    display: inline-block;
+    outline: none;
+
+    &:hover .social__icon {
+      fill: var(--orange-color);
+    }
+
+    &:focus-visible .social__icon {
+      fill: var(--focus-color);
+    }
+
+    &:active .social__icon {
+      fill: var(--active-color);
+    }
+  }
+
+  &__icon {
+    width: 30px;
+    height: 30px;
+    fill: #cacaca;
+    transition: fill 0.3s ease-in-out;
+  }
+}
