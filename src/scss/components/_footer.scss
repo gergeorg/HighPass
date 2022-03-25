@@ -1,15 +1,15 @@
 .footer {
-  height: 100px;
+  // height: 100px;
 
-  &__container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 30px;
-  }
+  // &__container {
+  //   display: grid;
+  //   grid-template-columns: repeat(12, 1fr);
+  //   gap: 30px;
+  // }
 
-  &__col {
-    height: 100px;
-    background-color: var(--bg-color);
-    outline: 1px solid var(--light-color);
-  }
+  // &__col {
+  //   height: 100px;
+  //   background-color: var(--bg-color);
+  //   outline: 1px solid var(--light-color);
+  // }
 }
