@@ -51,7 +51,7 @@
       .projects__descr {
         max-width: 292px;
         color: var(--light-color);
-
+        margin-bottom: auto;
       }
     }
 
@@ -64,8 +64,6 @@
       line-height: 24px;
       color: var(--light-color);
     }
-
-
   }
 
   &__image {
@@ -76,6 +74,13 @@
   &__descr {
     display: inline-block;
     margin-bottom: 10px;
+
+    height: calc(22px * 3);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -98,7 +103,7 @@
 
   &__link {
     display: block;
-    margin-top: auto;
+
     padding: 13px 19px;
     width: 122px;
     font-family: 'Roboto';

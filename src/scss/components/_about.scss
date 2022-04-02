@@ -33,13 +33,15 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    color: #CACACA;;
+    color: #CACACA;
+    ;
   }
 
   &__input {
     padding: 15px 23px;
     margin-right: 26px;
-    width: 474px;
+    margin-bottom: 20px;
+    width: 75.3%;
     background-color: #4A4A4A;
     color: var(--light-color);
 
@@ -73,5 +75,3 @@
     color: var(--light-color);
   }
 }
-
-

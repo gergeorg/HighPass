@@ -1,6 +1,38 @@
 <section class="contacts">
   <div class="contacts__container container">
-    <div class="contacts__map" id="map"></div>
+
+    <h2 class="section-title contacts__title">Контакты</h2>
+
+    <div class="contacts__content">
+      <div class="contacts__map" id="map">
+        <div class="contacts__info">
+          <button class="contacts__btn-close btn-reset">
+            <svg class="contacts__btn-icon">
+              <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
+          </button>
+          <h4 class="contacts__info-title">Студия “High pass”</h4>
+          <address class="contacts__address">107045, Москва, Даев переулок, дом 41, бизнес-центр «Даев Плаза», этаж 8,
+            офис №
+            82 </address>
+          <a href="+749542423532" class="contacts__tel">+7 (495) 42-423-532</a>
+        </div>
+      </div>
+
+      <form action="#" class="contact__form form">
+        <h3 class="form__title">Оставить заявку</h3>
+        <p class="form__descr">Оставьте ваши данные, указав в графе “Комментарий” желаемые время и дату съемки или
+          другого
+          мероприятия</p>
+        <label class="form__label">
+          <input class="input-reset form__input" type="text" name="Имя" placeholder="Имя">
+          <input class="input-reset form__input" type="email" name="Имя" placeholder="E-mail">
+          <textarea class="form__input form__textarea input-reset" name="comment" placeholder="Комментарий"></textarea>
+        </label>
+        <button class="form__btn orange-btn btn-reset">Отправить</button>
+      </form>
+    </div>
+
 
   </div>
 </section>
